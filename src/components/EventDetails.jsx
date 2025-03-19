@@ -15,9 +15,6 @@ function EventDetails({selectedEvent}) {
         <p className="font-semibold">
           Position : <span className="ml-2 font-light text-sm">{selectedEvent?.user_det?.job_id.jobRequest_Role}</span>
         </p>
-        {/* <p className="font-semibold">
-          Created By : <span className="ml-2 font-light text-sm" >karthik</span>
-        </p> */}
         <p className="font-semibold">
           Interview date : <span className="ml-2 font-light text-sm">{StartData}</span>
         </p>
